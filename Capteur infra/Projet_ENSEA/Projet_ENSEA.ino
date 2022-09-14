@@ -27,7 +27,7 @@ void loop() {
 
   newValue = analogRead(A0); 
 
-  Serial.println(newValue); 
+  Serial.println(newValue*5/1024); 
 
   if (newValue >= threshold) { 
 
